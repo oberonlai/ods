@@ -1,0 +1,10 @@
+#fb-root {
+  display: none;
+}
+.rwd {
+  .fb_iframe_widget, .fb_iframe_widget span, .fb_iframe_widget span iframe[style] {
+    width: 100% !important;
+  }
+}
+
+.fb_iframe_widget_fluid_desktop iframe { width: 100%!important; }

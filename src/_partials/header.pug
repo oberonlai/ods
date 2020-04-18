@@ -1,0 +1,9 @@
+each i in header
+  header.uk-padding
+    each j in i.navbar
+      h1.uk-text-center#logo
+        img.uk-width-1-6(src=j.src)
+      ul.uk-flex.uk-flex-center.uk-margin-top
+        each k in j.nav
+          li.uk-margin-left.uk-margin-right
+            a.text-dark(href=k.href)=k.text

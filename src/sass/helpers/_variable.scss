@@ -1,0 +1,57 @@
+$global-small-margin: 10px !default;
+$global-margin: 20px !default;
+$global-medium-margin: 40px !default;
+$global-large-margin: 70px !default;
+
+$global-color: #000 !default;
+$global-muted-background: #EDEDED !default;
+$global-primary-background: #fc9202 !default;
+$global-muted-color: #999 !default;
+$global-background: #fff !default;
+$global-secondary-background: #ffe400 !default;
+$global-success-background: #32d296 !default;
+$global-warning-background: #faa05a !default;
+$global-danger-background: #f0506e !default;
+
+$global-link-color: #1e87f0 !default;
+$global-link-hover-color: #0f6ecd !default;
+
+$global-small-gutter: 15px !default;
+$global-gutter: 30px !default;
+$global-medium-gutter: 40px !default;
+
+$global-font-family: 'Noto Sans TC','PingFang TC','微軟正黑體',Arial, sans-serif;
+
+$breakpoint-small: 640px !default;
+$breakpoint-medium: 960px !default;
+$breakpoint-large: 1200px !default;
+$breakpoint-xlarge: 1600px !default;
+
+$pink: #F38C9D;
+$green: #71BB66;
+$blue: #55BFF2;
+$purple: #B771B4;
+$iceblue: #f1f5f7;
+$yellow: #fcd127;
+
+body {
+  position: relative;
+  font-family: $global-font-family;
+  color: $global-color;
+  display: flex;
+  flex-direction: column;
+}
+
+html, body {
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+.content {
+  flex: 1 0 auto;
+}
+.footer {
+  flex-shrink: 0;
+}

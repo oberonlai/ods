@@ -1,0 +1,129 @@
+.text-huge {font-size: rem(30px);line-height: 1.5;}
+.text-xxxlarge {font-size: rem(28px);line-height: 1.5;}
+.text-xxlarge {font-size: rem(24px);line-height: 1.5;}
+.text-xlarge {font-size: rem(22px);line-height: 1.5;}
+.text-large {font-size: rem(20px);line-height: 1.5;}
+.text-medium {font-size: rem(18px);line-height: 1.5;}
+.text-default {font-size: rem(16px);line-height: 1.5;}
+.text-small {font-size: rem(14px);line-height: 1.5;}
+.text-xsmall {font-size: rem(12px);line-height: 1.5;}
+@media (min-width: 640px) {
+  .text-huge-s {font-size: rem(30px)}
+  .text-xxxlarge-s {font-size: rem(28px)}
+  .text-xxlarge-s {font-size: rem(24px)}
+  .text-xlarge-s {font-size: rem(22px)}
+  .text-large-s {font-size: rem(20px)}
+  .text-medium-s {font-size: rem(18px)}
+  .text-default-s {font-size: rem(16px)}
+  .text-small-s {font-size: rem(14px)}
+  .text-xsmall-s {font-size: rem(12px)}
+}
+@media (min-width: 960px) {
+  .text-huge-m {font-size: rem(30px)}
+  .text-xxxlarge-m {font-size: rem(28px)}
+  .text-xxlarge-m {font-size: rem(24px)}
+  .text-xlarge-m {font-size: rem(22px)}
+  .text-large-m {font-size: rem(20px)}
+  .text-medium-m {font-size: rem(18px)}
+  .text-default-m {font-size: rem(16px)}
+  .text-small-m {font-size: rem(14px)}
+  .text-xsmall-m {font-size: rem(12px)}
+}
+@media (min-width: 1200px) {
+  .text-huge-l {font-size: rem(30px)}
+  .text-xxxlarge-l {font-size: rem(28px)}
+  .text-xxlarge-l {font-size: rem(24px)}
+  .text-xlarge-l {font-size: rem(22px)}
+  .text-large-l {font-size: rem(20px)}
+  .text-medium-l {font-size: rem(18px)}
+  .text-default-l {font-size: rem(16px)}
+  .text-small-l {font-size: rem(14px)}
+  .text-xsmall-l {font-size: rem(12px)}
+}
+@media (min-width: 1600px) {
+  .text-huge-xl {font-size: rem(30px)}
+  .text-xxxlarge-xl {font-size: rem(28px)}
+  .text-xxlarge-xl {font-size: rem(24px)}
+  .text-xlarge-xl {font-size: rem(22px)}
+  .text-xlarge-xl {font-size: rem(20px)}
+  .text-medium-xl {font-size: rem(18px)}
+  .text-default-xl {font-size: rem(16px)}
+  .text-small-xl {font-size: rem(14px)}
+  .text-xsmall-xl {font-size: rem(12px)}
+}
+
+.text-white { color: #fff!important}
+.text-dark {color: #222}
+.text-black {color: #000}
+.text-light {color: #444}
+.text-gray {color: #666}
+.text-light-gray {color: #ccc}
+.text-red {color: #e10a30}
+.text-yellow {color: $yellow}
+
+.text-spacing {letter-spacing: .2rem}
+.text-remove-spacing {letter-spacing: 0}
+.text-small-spacing {letter-spacing: .1rem}
+.text-medium-spacing {letter-spacing: .4rem}
+.text-large-spacing {letter-spacing: .6rem}
+@media (min-width: 640px) { 
+  .text-remove-spacing-s {letter-spacing: 0}
+  .text-small-spacing-s {letter-spacing: .1rem}
+  .text-medium-spacing-s {letter-spacing: .4rem}
+  .text-large-spacing-s {letter-spacing: .6rem}
+}
+@media (min-width: 960px) { 
+  .text-remove-spacing-m {letter-spacing: 0}
+  .text-small-spacing-m {letter-spacing: .1rem}
+  .text-medium-spacing-m {letter-spacing: .4rem}
+  .text-large-spacing-m {letter-spacing: .6rem}  
+}
+@media (min-width: 1200px) {
+  .text-remove-spacing-l {letter-spacing: 0}
+  .text-small-spacing-l {letter-spacing: .1rem}
+  .text-medium-spacing-l {letter-spacing: .4rem}
+  .text-large-spacing-l {letter-spacing: .6rem}  
+ }
+
+
+.text-small-height { line-height: 1.2rem }
+.text-default-height { line-height: 1.5rem }
+.text-height { line-height: 2rem }
+.text-medium-height { line-height: 2.5rem }
+.text-large-height { line-height: 4rem }
+@media (min-width: 640px) { 
+  .text-small-height-s { line-height: 1rem }
+  .text-medium-height-s { line-height: 2.5rem }
+  .text-large-height-s { line-height: 4rem }
+}
+@media (min-width: 960px) { 
+  .text-small-height-m { line-height: 1rem }
+  .text-medium-height-m { line-height: 2.5rem }
+  .text-large-height-m { line-height: 4rem }
+}
+@media (min-width: 1200px) { 
+  .text-small-height-l { line-height: 1rem }
+  .text-medium-height-l { line-height: 2.5rem }
+  .text-large-height-l { line-height: 4rem }
+}
+
+.text-vertical {writing-mode: vertical-lr;transform: rotate(-180deg)}
+.text-italic {font-style: italic}
+.text-serif {font-family: 'Noto Serif TC', serif}
+
+.text-weight {font-weight: normal}
+.text-small-weight {font-weight:300}
+.text-medium-weight {font-weight:500}
+.text-large-weight {font-weight:600}
+@media (min-width: 640px) { 
+  .text-small-weight-s {font-weight:300}
+  .text-large-weight-s {font-weight:600}
+}
+@media (min-width: 960px) { 
+  .text-small-weight-m {font-weight:300}
+  .text-large-weight-m {font-weight:600}
+}
+@media (min-width: 1200px) { 
+  .text-small-weight-l {font-weight:300}
+  .text-large-weight-l {font-weight:600}
+}

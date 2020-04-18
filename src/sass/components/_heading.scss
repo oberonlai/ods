@@ -1,0 +1,38 @@
+.heading-xxsmall {font-size:rem(18px);line-height:1.5;}
+.heading-xsmall {font-size:rem(24px);line-height:1.5;}
+.heading-small {font-size:rem(30px);line-height:1.5;}
+.heading-default {font-size:rem(32px);line-height:1.5;}
+.heading-medium {font-size:rem(35px);line-height:1.5;}
+.heading-large {font-size:rem(40px);line-height:1.5;}
+@media (min-width: 640px) { 
+  .heading-xxsmall-s {font-size:rem(18px)}
+  .heading-xsmall-s {font-size:rem(22px)}
+  .heading-small-s {font-size:rem(30px)}
+  .heading-default-s {font-size:rem(32px)}
+  .heading-medium-s {font-size:rem(35px)}
+  .heading-large-s {font-size:rem(40px)}
+}
+@media (min-width: 960px) { 
+  .heading-xxsmall-m {font-size:rem(18px)}
+  .heading-xsmall-m {font-size:rem(22px)}
+  .heading-small-m {font-size:rem(30px)}
+  .heading-default-m {font-size:rem(32px)}
+  .heading-medium-m {font-size:rem(35px)}
+  .heading-large-m {font-size:rem(40px)}
+}
+@media (min-width: 1200px) { 
+  .heading-xxsmall-l {font-size:rem(18px)}
+  .heading-xsmall-l {font-size:rem(22px)}
+  .heading-small-l {font-size:rem(30px)}
+  .heading-default-l {font-size:rem(32px)}
+  .heading-medium-l {font-size:rem(35px)}
+  .heading-large-l {font-size:rem(40px)}
+}
+@media (min-width: 1600px) { 
+  .heading-xxsmall-xl {font-size:rem(18px)}
+  .heading-xsmall-xl {font-size:rem(22px)}
+  .heading-small-xl {font-size:rem(30px)}
+  .heading-default-xl {font-size:rem(32px)}
+  .heading-medium-xl {font-size:rem(35px)}
+  .heading-large-xl {font-size:rem(40px)}
+}
