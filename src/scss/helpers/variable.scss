@@ -34,24 +34,24 @@ $purple: #B771B4;
 $iceblue: #f1f5f7;
 $yellow: #fcd127;
 
-body {
-  position: relative;
-  font-family: $global-font-family;
-  color: $global-color;
-  display: flex;
-  flex-direction: column;
-}
+// body {
+//   position: relative;
+//   font-family: $global-font-family;
+//   color: $global-color;
+//   display: flex;
+//   flex-direction: column;
+// }
 
-html, body {
-  height: 100%;
-}
-body {
-  display: flex;
-  flex-direction: column;
-}
-.content {
-  flex: 1 0 auto;
-}
-.footer {
-  flex-shrink: 0;
-}
+// html, body {
+//   height: 100%;
+// }
+// body {
+//   display: flex;
+//   flex-direction: column;
+// }
+// .content {
+//   flex: 1 0 auto;
+// }
+// .footer {
+//   flex-shrink: 0;
+// }
