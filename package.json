@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "build": "parcel build --no-content-hash src/js/script.js src/sass/style.scss src/img/** --no-source-maps -d assets",
+    "build": "parcel build --no-content-hash src/js/script.js src/scss/style.scss src/img/** --no-source-maps -d assets",
     "start": "parcel serve src/*.pug --no-source-maps -d dev"
   },
   "devDependencies": {
