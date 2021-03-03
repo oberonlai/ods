@@ -7,7 +7,7 @@
     "cssnano": "^4.1.10",
     "parcel-bundler": "^1.12.4",
     "parcel-plugin-custom-dist-structure": "^1.1.9",
-    "pug": "^2.0.4",
+    "pug": "^3.0.1",
     "sass": "^1.26.3"
   },
   "dependencies": {
